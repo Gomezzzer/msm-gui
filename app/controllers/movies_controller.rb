@@ -1,4 +1,9 @@
 class MoviesController < ApplicationController
+ def update
+#25:13
+ end
+ 
+ 
   def create
     # params hash looks like this:
     # {"the_title"=>"1", "the_year"=>"2", "the_duration"=>"3", "the_description"=>"4", "the_image"=>"5", "the_director_id"=>"6"}
